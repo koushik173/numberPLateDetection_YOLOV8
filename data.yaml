@@ -1,0 +1,6 @@
+train: D:\Professional\OpenCv\numberPlateDetection\data\train
+val: D:\Professional\OpenCv\numberPlateDetection\data\val
+
+
+nc: 1
+names: ['License_Plate']
