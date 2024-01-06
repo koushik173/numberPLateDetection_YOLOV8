@@ -25,7 +25,11 @@ A licensed plate detector was used to detect license plates. The model was train
 
 The trained model is available in my ```https://drive.google.com/drive/folders/1ZPhloKFfHRpENqEYr7RtVvOywjgwZq2U?usp=sharing ```
 
-### STEP 02- Create a conda environment after opening the repository
+## STEP 02: download sort file
+
+The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort)
+
+### STEP 03- Create a conda environment after opening the repository
 
 ```bash
 conda create -n mchatbot python=3.8 -y
@@ -35,11 +39,11 @@ conda create -n mchatbot python=3.8 -y
 conda activate mchatbot
 ```
 
-### STEP 03- install the requirements
+### STEP 04- install the requirements
 ```bash
 pip install -r requirements.txt
 ```
-### STEP 04- Run Project
+### STEP 05- Run Project
 ```bash
 python main.py
 ```
